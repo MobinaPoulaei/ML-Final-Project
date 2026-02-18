@@ -1,4 +1,3 @@
-```markdown
 # Fashion-MNIST Variational Autoencoder (VAE) Project
 
 This project explores Variational Autoencoders (VAEs) for image generation and reconstruction on the Fashion-MNIST dataset. It covers data preparation, VAE implementation (both fully connected and convolutional), training, evaluation using FID score, and latent space exploration.
@@ -118,4 +117,4 @@ $$FID = \|\mu_r - \mu_g\|^2 + \text{Tr}(\Sigma_r + \Sigma_g - 2\sqrt{\Sigma_r \S
 ## Usage
 
 To run this project, simply execute the cells in the provided Jupyter/Colab notebook sequentially. Ensure that the `fashion_resnet18_classifier.pt` file is accessible in your environment for FID calculation.
-```
+
