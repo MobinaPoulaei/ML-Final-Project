@@ -121,7 +121,7 @@ $$FID = \|\mu_r - \mu_g\|^2 + \text{Tr}(\Sigma_r + \Sigma_g - 2\sqrt{\Sigma_r \S
 | BaseVAE (Beta 0.5)         | 2          | 0.5  | 258.7             | 254.9               | 7.6      | 28.3813   |
 | BaseVAE (Latent Dim 10)    | 10         | 1.0  | 241.5             | 225.9               | 15.6     | 8.6994    |
 | ConvVAE                    | 10         | 1.0  | 240.4             | 225.0               | 15.4     | 8.7528    |
-| ConditionalVAE             | 32         | 1.0  | 236.22            | 222.36              | 13.8    | N/A       |
+| ConditionalVAE             | 32         | 1.0  | 236.2            | 222.4              | 13.8    | N/A       |
 
 *Note: FID score was not calculated for ConditionalVAE in this context.*
 
